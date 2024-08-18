@@ -1,0 +1,37 @@
+.resume-section {
+    position: relative;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    /* background-color: #bab4b4; */
+    background: linear-gradient(135deg, #f4f4f4 0%, #e8ebf0 100%);
+    overflow: hidden;
+}
+
+.resume-bg-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgba(19, 18, 18, 0.1); /* Light grey text for background */
+    z-index: 0;
+    pointer-events: none; /* To ensure it's non-interactive */
+}
+
+.resume-section h1 {
+    position: relative;
+    font-size: 43px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.resume-section p {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 1;
+}

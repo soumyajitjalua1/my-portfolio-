@@ -1,0 +1,36 @@
+/* Styles for the navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styling the logo */
+.nav-logo img {
+    width: 100px; /* Adjust the width to make the image logo-sized */
+    height: auto;
+    border-radius: 45%;
+}
+
+/* Styling the navigation links */
+.nav-link ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    transition: color 0.3s ease;
+}
+
+.nav-link ul li a:hover {
+    color: #ff6347; /* Change the color on hover */
+}

@@ -1,0 +1,88 @@
+.contact-container {
+    position: relative;
+    background-color: #f0f4f8;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.Big-contact-background {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.Big-contact-background h1 {
+    font-size: 8vw; /* Reduced from 15vw to 8vw */
+    color: rgba(19, 19, 19, 0.05); /* Made it slightly more transparent */
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.contact-header {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 33px;
+}
+
+/* Rest of your CSS remains the same */
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info-item {
+    flex-basis: calc(33.333% - 40px);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .contact-icon {
+    font-size: 2rem;
+    color: white;
+    background-color: #3498db; /* Bright blue */
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info-item h3 {
+    color: #2c3e50; /* Dark blue-gray */
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-item p {
+    color: #34495e; /* Medium blue-gray */
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-info-item {
+      flex-basis: 100%;
+    }
+  }
+
+/* .Big-contact-background{
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgba(19, 18, 18, 0.1); 
+    z-index: 1; 
+    pointer-events: none;
+} */

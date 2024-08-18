@@ -1,0 +1,65 @@
+.more-project-container {
+    /* Cover the entire viewport */
+    height: 100vh;
+    width: 100%;
+    
+    /* Set up the background image */
+    background-image: url('./../../Image/nature\ image\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Create an overlay to ensure text is readable */
+    position: relative;
+  }
+  
+  .more-project-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+  }
+  
+  .more-project-content {
+    /* Center the content both vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ensure text is visible on dark background */
+    z-index: 1; /* Place content above the overlay */
+  }
+  
+  .more-project-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .more-project-content h4 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+  }
+  
+  .more-project-content button {
+    background-color: #0366d6; /* GitHub blue color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .more-project-content button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .more-project-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }

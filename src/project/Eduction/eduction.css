@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.education-section {
+  position: relative;
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  overflow: hidden; /* Ensure the big-heading stays within the section */
+}
+
+.big-heading {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: rgba(19, 18, 18, 0.1); /* Light grey text for background */
+  z-index: 1; /* Ensures it's behind other content */
+  pointer-events: none;
+}
+
+
+.heading {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #3a3a3a;
+  font-size: 45px;
+  z-index: 2; /* Ensure it's above the big-heading */
+  position: relative;
+}
+
+.year {
+  font-size: 25px;
+  color: blueviolet;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  z-index: 2; /* Ensure it's above the big-heading */
+  position: relative;
+}
+
+.col1, .col2 {
+  background: #d0dae2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 450px;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #3a77a1;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #221f1f;
+  margin-bottom: 10px;
+}
+
+/* Hover effect for the containers */
+.col1:hover, .col2:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col1, .col2 {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+.resume {
+  display: block;
+  margin: 35px auto;  /* Centers the button horizontally */
+  padding: 15px 20px; /* Increases the size of the button */
+  font-size: 18px;    /* Makes the text larger */
+  background-color: #36ba90; /* Green background color */
+  color: white;       /* White text color */
+  border: none;       /* Removes border */
+  border-radius: 12px; /* Slightly rounded corners */
+  cursor: pointer;    /* Pointer cursor on hover */
+  text-align: center; /* Centers the text within the button */
+  text-decoration: none; /* Removes underline from the link */
+}
+
+.resume a {
+  color: inherit;     /* Inherits the color of the button */
+  text-decoration: none; /* Removes underline from the link */
+}
+
+.resume:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+

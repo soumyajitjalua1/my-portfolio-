@@ -1,0 +1,102 @@
+/* navbar.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .nav-logo img {
+    height: 76px; /* Adjust the height as needed */
+    width: auto; /* Maintain the aspect ratio */
+  }
+  
+  /* Scrolling text container */
+.nav-scrolling-text {
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 20px;
+  }
+  
+  .nav-scrolling-text p {
+    display: inline-block;
+    font-size: 23px;
+    color: white; /* Initial color */
+    animation: scroll-left 10s linear infinite, color-change 50s step-start infinite;
+  }
+  
+  /* Scrolling text animation */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Color change animation */
+  @keyframes color-change {
+    0% {
+      color: white;
+    }
+    20% {
+      color: blue;
+    }
+    40% {
+      color: green;
+    }
+    60% {
+      color: yellow;
+    }
+    80% {
+      color: orange;
+    }
+    100% {
+      color: pink;
+    }
+  }
+  
+  
+  
+  .nav-link ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    /* padding: 0; */
+    padding-right: 25px;
+    column-gap: 15px;
+  }
+  
+  .nav-link ul li {
+    margin: 0 15px;
+  }
+  
+  .nav-link ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link ul li a:hover {
+    color: #36ba90;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Add padding to the top of sections to account for the fixed navbar height */
+  section {
+    padding-top: 70px; /* Adjust this value based on your navbar height */
+    margin-top: -70px; /* Same as padding-top to offset the margin */
+  }
+  

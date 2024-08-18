@@ -1,0 +1,80 @@
+.all-projects {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.Container {
+    display: flex;
+    justify-content: center; /* Centers the items */
+    gap: 35px; /* Reduce the gap between the containers */
+    flex-wrap: wrap;
+}
+
+.project1, .project2 {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 25%;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 0; /* Ensure no additional margin is added */
+}
+
+.project1:hover, .project2:hover {
+    transform: translateY(-10px);
+}
+
+.project1 img, .project2 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.project1 h1, .project2 h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.project1 p, .project2 p {
+    font-size: 16px;
+    color: #666;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.project1 button, .project2 button {
+    background-color: #36ba90;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.project1 button:hover, .project2 button:hover {
+    background-color: #2a9071;
+}
+
+.project1 a, .project2 a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .project1, .project2 {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .project1, .project2 {
+        width: 100%;
+    }
+}

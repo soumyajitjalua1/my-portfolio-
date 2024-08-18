@@ -1,0 +1,178 @@
+/* Container for the entire header section */
+.header-container {
+    padding: 20px;
+    background: linear-gradient(135deg, #f4f4f4 0%, #e8ebf0 100%);
+    margin-top: 90px;
+}
+
+/* Flexbox layout for aligning text and image side by side */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Container for the text */
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Individual styling for headings */
+.header-content h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.header-content h1 {
+    margin: 10px 0;
+    font-size: 2.5rem;
+    color: #111;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.header-content .fillname {
+    font-size: 3rem;
+    color: #007bff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.header-content h2 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #007bff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-in-out;
+}
+
+/* Styling for the paragraph text */
+.header-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+    max-width: 600px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+
+/* Container for the profile image */
+.imageContainer {
+    flex-shrink: 0;
+} 
+
+/* Styling for the profile image */
+.imageContainer img {
+    border-radius: 50%;
+    width: 360px;
+    height: 375px;
+    object-fit: cover;
+    object-position: top 10%; /* Adjust this value to show more of the top part */
+    border: 5px solid transparent; /* Set border to transparent for gradient effect */
+    background: linear-gradient(to right, #aecef0, #7aa0d3);
+    padding: 5px; /* Space between gradient border and image */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow for a more pronounced effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    animation: glow 2s ease-in-out infinite alternate; /* Glow effect */
+}
+
+/* Hover effect for scaling and shadow enhancement */
+.imageContainer img:hover {
+    transform: scale(1.05) rotate(-2deg); /* Slight tilt on hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+/* Glow animation keyframes */
+@keyframes glow {
+    from {
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 0 10px #aecef0, 0 0 20px #7aa0d3;
+    }
+    to {
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 0 20px #aecef0, 0 0 30px #7aa0d3;
+    }
+}
+
+/* Button */
+/* Container for the social media buttons */
+.connectMe {
+    display: flex;
+    justify-content: flex-start; /* Aligns the buttons to the left */
+    gap: 20px; /* Space between the buttons */
+    margin-top: 20px;
+    margin-left: 0px; /* Adjust this value to move the buttons further left */
+}
+
+/* General styling for the buttons */
+.connectMe button {
+    background: linear-gradient(135deg, #0072b1, #005f8b);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hover effect for buttons */
+.connectMe button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* LinkedIn button specific styling */
+.connectMe .linkedin {
+    background: linear-gradient(135deg, #0072b1, #005f8b);
+}
+
+/* GitHub button specific styling */
+.connectMe .Github {
+    background: linear-gradient(135deg, #333, #444);
+}
+
+/* Adding FontAwesome icons to buttons */
+.connectMe button::before {
+    content: attr(data-icon);
+    font-family: 'FontAwesome'; /* Assuming you're using FontAwesome for icons */
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* LinkedIn button specific styling */
+.connectMe .linkedin::before {
+    content: "\f08c"; /* FontAwesome LinkedIn icon */
+}
+
+/* GitHub button specific styling */
+.connectMe .Github::before {
+    content: "\f09b"; /* FontAwesome GitHub icon */
+}
+
+/* Styling the links inside the buttons */
+.connectMe button a {
+    color: inherit; /* Inherit the button text color */
+    text-decoration: none;
+}
+
+.connectMe button a:hover {
+    text-decoration: none;
+}
+
+/* Keyframes for fade-in up animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

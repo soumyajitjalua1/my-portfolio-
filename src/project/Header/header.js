@@ -15,15 +15,17 @@ const header = () => {
             I'm a{" "}
             <Typical
               steps={[
-                "React Developer ❤️😍",
+                "React Developer ⚛️",
                 1000,
                 // "Full Stack Developer 🚀",
                 // 1000,
-                "Frontend Developer 🧑‍💻",
+                "Frontend Developer ",
                 1000,
-                "AI Engineer 🧠",
+                "AI Engineer 🤖",
                 1000,
-                "Data Scientist ✅",
+                "Data Scientist 📊",
+                1000,
+                "Python Devolaper 🐍",
                 1000,
               ]}
               loop={Infinity}

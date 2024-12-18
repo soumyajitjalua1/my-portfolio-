@@ -4,12 +4,8 @@ import "./ContuctMe.css"
 const ContactMe = () => {
   return (
     <div className="contact-container">
-        <div className='Big-contact-background'>
-            <h1>Contact Me</h1>
-        </div>
-      <div className="contact-header">
-        <h2>Contact Me</h2>
-      </div>
+      <div className='Big-contact-background'>Contact Me</div>
+      <h2 className="contact-header">Contact Me</h2>
       <div className="contact-info">
         <div className="contact-info-item">
           <FaMapMarkerAlt className="contact-icon" />

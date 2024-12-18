@@ -7,15 +7,22 @@
 }
 
 .Big-contact-background {
-    position: absolute;
-    top: 21%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    z-index: 1;
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  color: rgba(19, 18, 18, 0.1); /* Light grey text for background */
+  z-index: 1; /* Ensures it's behind other content */
+  pointer-events: none;
 }
 
+.contact-header{
+  text-align: center;
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
 .Big-contact-background h1 {
     font-size: 8vw; /* Reduced from 15vw to 8vw */
     color: rgba(19, 19, 19, 0.05); /* Made it slightly more transparent */
@@ -32,7 +39,7 @@
     z-index: 2;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 33px;
+    font-size: 38px;
 }
 
 /* Rest of your CSS remains the same */

@@ -1,80 +1,121 @@
 .all-projects {
     background-color: #f5f5f5;
-    padding: 50px 0;
+    padding: 50px 0; /* Add padding for better spacing */
     text-align: center;
+    position: relative;
+}
+
+.big-projects-project {
+    font-size: 72px;
+    color: rgba(19, 18, 18, 0.05); /* Softer background text color */
+    font-weight: bold;
+    z-index: 0; /* Keeps it behind the main content */
+    pointer-events: none;
+    position: absolute; /* Stays in the background */
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    white-space: nowrap; /* Prevents text wrapping */
+}
+
+.project-heading {
+    position: relative;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    z-index: 1; /* Ensures it appears above the background text */
 }
 
 .Container {
     display: flex;
-    justify-content: center; /* Centers the items */
-    gap: 35px; /* Reduce the gap between the containers */
+    justify-content: center;
+    gap: 30px;
     flex-wrap: wrap;
+    z-index: 1; /* Ensures it appears above the background text */
 }
 
-.project1, .project2 {
+.project1, .project2, .project3, .project4, .project5, .project6 {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 25%;
+    width: 30%;
     text-align: center;
-    transition: transform 0.3s ease;
-    margin: 0; /* Ensure no additional margin is added */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px 0;
 }
 
-.project1:hover, .project2:hover {
-    transform: translateY(-10px);
+.project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.project1 img, .project2 img {
+.project1 img, .project2 img, .project3 img, .project4 img, .project5 img, .project6 img {
     width: 100%;
     height: auto;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #eee;
 }
 
-.project1 h1, .project2 h1 {
-    font-size: 24px;
-    color: #333;
+.project1 h1, .project2 h1, .project3 h1, .project4 h1, .project5 h1, .project6 h1 {
+    font-size: 22px;
+    color: #222;
     margin: 15px 0;
+    font-weight: 700;
 }
 
-.project1 p, .project2 p {
-    font-size: 16px;
-    color: #666;
-    padding: 0 15px;
+.project1 p, .project2 p, .project3 p, .project4 p, .project5 p, .project6 p {
+    font-size: 15px;
+    color: #555;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.project-button {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
-.project1 button, .project2 button {
+.project-button button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
     background-color: #36ba90;
     color: white;
     border: none;
-    padding: 10px 20px;
     border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-bottom: 20px;
     transition: background-color 0.3s ease;
 }
 
-.project1 button:hover, .project2 button:hover {
+.project-button button:hover {
     background-color: #2a9071;
 }
 
-.project1 a, .project2 a {
-    color: white;
+.project-button a {
     text-decoration: none;
+    color: inherit;
 }
 
-@media (max-width: 900px) {
-    .project1, .project2 {
+@media (max-width: 1200px) {
+    .project1, .project2, .project3, .project4, .project5, .project6 {
         width: 45%;
-        margin-bottom: 30px;
     }
 }
 
-@media (max-width: 700px) {
-    .project1, .project2 {
+@media (max-width: 768px) {
+    .project1, .project2, .project3, .project4, .project5, .project6 {
         width: 100%;
+    }
+
+    .big-projects-project {
+        font-size: 48px;
+    }
+
+    .project-heading {
+        font-size: 28px;
     }
 }

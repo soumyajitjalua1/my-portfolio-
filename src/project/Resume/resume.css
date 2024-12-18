@@ -11,7 +11,7 @@
 
 .resume-bg-text {
     position: absolute;
-    top: 30%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
@@ -35,3 +35,25 @@
     margin: 0 auto;
     z-index: 1;
 }
+.resume-button {
+    display: block;
+    margin: 35px auto;  /* Centers the button horizontally */
+    padding: 15px 20px; /* Increases the size of the button */
+    font-size: 18px;    /* Makes the text larger */
+    background-color: #36ba90; /* Green background color */
+    color: white;       /* White text color */
+    border: none;       /* Removes border */
+    border-radius: 12px; /* Slightly rounded corners */
+    cursor: pointer;    /* Pointer cursor on hover */
+    text-align: center; /* Centers the text within the button */
+    text-decoration: none; /* Removes underline from the link */
+  }
+  
+  .resume-button a {
+    color: inherit;     /* Inherits the color of the button */
+    text-decoration: none; /* Removes underline from the link */
+  }
+  
+  .resume-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }

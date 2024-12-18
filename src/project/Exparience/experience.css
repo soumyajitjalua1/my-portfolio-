@@ -1,0 +1,127 @@
+/* experience.css */
+.experience-section {
+    font-family: 'Arial', sans-serif;
+    margin: 2rem auto;
+    position: relative;
+    max-width: 900px;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f9f9f9 50%, #007BFF 50%);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.big-heading-experience {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 84px;
+    color: rgba(19, 18, 18, 0.1); /* Light grey text for background */
+    z-index: 1; /* Ensures it's behind other content */
+    pointer-events: none;
+}
+
+.Experience-heading {
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.experience-item {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 1rem;
+}
+
+.experience-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item h4 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 0.3rem;
+}
+
+.experience-item p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+.experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0 0 1rem;
+    color: #333;
+}
+
+.experience-item ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.experience-item button:hover {
+    background-color: #0056b3;
+}
+
+.experience-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #007BFF;
+    border-radius: 4px 0 0 4px;
+}
+
+@media (max-width: 768px) {
+    .experience-section {
+        padding: 1.5rem;
+    }
+
+    .big-heading-Experience {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .experience-item {
+        padding: 1rem;
+    }
+
+    .experience-item h3, .experience-item h4, .experience-item p {
+        font-size: 1rem;
+    }
+
+    .experience-item ul li {
+        font-size: 0.9rem;
+    }
+
+    .experience-item button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}

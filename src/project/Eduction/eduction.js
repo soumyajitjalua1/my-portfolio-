@@ -20,9 +20,6 @@ const Eduction = () => {
                 <h3>CGPA: 8.1</h3>
             </div>
         </div>
-        <button className='resume'>
-            <a href="https://drive.google.com/file/d/1OQQ6L7FyudQ1Yeqy7Iotve34ZAHgoIrq/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
-        </button>
     </div>
   )
 }

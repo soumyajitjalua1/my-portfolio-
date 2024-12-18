@@ -8,6 +8,7 @@ import Projects from './project/Projects/projects'
 import Moreproject from './project/More Project/Moreproject'
 import ContuctMe from './project/ContuctMe/ContuctMe'
 import SocialMediaLinks from './project/SocalMedia/socalmedia'
+import Experience from './project/Exparience/experience'
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
       <section id="resume">
         <Resume />
         <Eduction />
+      </section>
+      <section id="experience">
+        <Experience />
       </section>
       <section id="projects">
         <Projects />

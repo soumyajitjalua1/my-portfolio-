@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Aboutme.css";
-import myimage from "../../my_img2.jpg";
+import myimage from "../../my_new_img.jpg";
 import { FaKaggle } from 'react-icons/fa';
 
 const Aboutme = () => {
@@ -45,7 +45,7 @@ const Aboutme = () => {
 
       <div className='right-section'>
         <h1>About Me</h1>
-        <p>I am Soumyajit Jalua, currently pursuing an M.Sc in Artificial Intelligence and Machine Learning at the Indian Institute of Information Technology, Lucknow. I hold a BSc (Honours) in Mathematics from Panskura Banamali College (Autonomous). With a robust foundation in mathematics and statistics, I specialize in developing scalable machine learning models using Python, SQL, and various ML frameworks. I am also proficient in web development, with skills in JavaScript, HTML, CSS, and React, allowing me to create dynamic and responsive web applications. Passionate about contributing to innovative AI solutions, I am driven by a keen interest in data science, the exploration of advanced AI models, and the integration of AI into user-friendly web interfaces.</p>
+        <p>I am Soumyajit Jalua, currently pursuing an M.Sc. in Artificial Intelligence and Machine Learning at the Indian Institute of Information Technology, Lucknow. I hold a B.Sc.(Honours) in Mathematics from Panskura Banamali College, With a robust foundation in mathematics and statistics. I specialize in developing scalable machine learning models using Python, SQL, and various ML frameworks. I am also proficient in web development, with skills in JavaScript, HTML, CSS, and React, allowing me to create dynamic and responsive web applications. Passionate about contributing to innovative AI solutions, I am driven by a keen interest in data science, the exploration of advanced AI models, and the integration of AI into user-friendly web interfaces.</p>
 
         <div className='aboutProfile'>
             <div className='profileHeading'>
@@ -53,6 +53,7 @@ const Aboutme = () => {
                 <h4>Domain:</h4>
                 <h4>Education:</h4>
                 <h4>Language:</h4>
+                <h4>Frameworks:</h4>
                 <h4>Programming Skills:</h4>
                 <h4>Tools:</h4>
                 <h4>Hobbies:</h4>
@@ -63,9 +64,10 @@ const Aboutme = () => {
                 <p>AI & ML, Data Science, Web Development</p>
                 <p>Master of Science (MSc)</p>
                 <p>English, Hindi, Bengali</p>
-                <p>Python, JavaScript, HTML, CSS, React, SQL</p>
+                <p>React, Laravel, Flutter, Django</p>
+                <p>Python, C++, HTML, CSS, JavaScript, SQL, Dart, PHP</p>
                 <p>Advanced Excel, VS Code, MongoDB, Git, Power BI, & Matplotlib</p>
-                <p>Running, Reading, Playing Cricket, Watching Movies</p>
+                <p>Running, Reading, Playing Cricket & Football, Watching Movies</p>
             </div>
         </div>
         <div className='kaggleSection'>

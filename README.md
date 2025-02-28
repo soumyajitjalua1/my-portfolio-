@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Soumyajit Jalua - AI/ML Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub Pages](https://img.shields.io/badge/Gateway%20to%20Innovation-AI%20%26%20ML%20Solutions-blueviolet)
+![Tech Stack](https://img.shields.io/badge/Python-Expert-3776AB?logo=python&logoColor=white)
+![ML](https://img.shields.io/badge/Machine%20Learning-Advanced-red)
+![Cloud](https://img.shields.io/badge/Cloud-AWS%20|%20GCP%20|%20Azure-ff69b4)
 
-## Available Scripts
+🔗 **Live Portfolio:** [soumyajit-jalua.github.io](https://yourusername.github.io/repo-name/)  
+📄 **Resume PDF:** [Download Here](Soumyajit1_resume.pdf)
 
-In the project directory, you can run:
+## 🚀 Professional Highlights
 
-### `npm start`
+- **Generative AI Specialist** with 90%+ accuracy in ML solutions
+- **Full-Stack Developer** experienced in React, Node.js, and Flutter
+- **M.Sc in AI/ML** @ IIIT Lucknow (CGPA: 8.14)
+- **1+ Technical Projects** integrating cutting-edge technologies like GANs and LLMs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technical Arsenal
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔧 Core Stack
+![Python](https://img.shields.io/badge/Python-Expert-3776AB?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Cloud](https://img.shields.io/badge/Cloud-AWS%20|%20GCP%20|%20Azure-232F3E)
 
-### `npm test`
+### 🧠 AI/ML Expertise
+- Generative AI (GANs, LLMs)
+- Computer Vision (OpenCV, Medical Imaging)
+- NLP (LangChain, RAG Architectures)
+- Predictive Modeling & Time Series Analysis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📊 Data Ecosystem
+![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
+![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black)
+![SQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 
-### `npm run build`
+## 🌟 Signature Projects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### AnywhereLLM - Contextual AI Assistant
+![Python](https://img.shields.io/badge/-Python-3776AB) ![Azure](https://img.shields.io/badge/-Azure_AI-0089D6)
+- System-wide AI assistant with multi-modal generation
+- Advanced context-aware response system
+- Dynamic memory management with summarization
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### GAN-Powered Medical Diagnostics
+![GAN](https://img.shields.io/badge/-Generative_AI-FF6F00) ![Healthcare](https://img.shields.io/badge/-Medical_AI-00B0D8)
+- 90% accurate cancer detection system
+- Integrated Cloud Vision & Groq APIs
+- Automated report generation pipeline
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎓 Academic Journey
 
-### `npm run eject`
+**M.Sc Artificial Intelligence & Machine Learning**  
+*Indian Institute of Information Technology Lucknow*  
+`2022-2024` | CGPA: 8.14  
+📚 Specializations: Neural Networks, Computer Vision, Cloud Computing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**B.Sc Mathematics (Honours)**  
+*Panskura Banamali College*  
+`2019-2022` | CGPA: 8.1  
+🧮 Focus: Statistical Modeling, Computational Mathematics
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 💡 Innovation Showcase
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```python
+# Sample code snippet from medical GAN project
+import tensorflow as tf
+from gan import MedicalImageGAN
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+def enhance_diagnosis(scan):
+    generator = MedicalImageGAN()
+    enhanced = generator.preprocess(scan)
+    prediction = model.predict(enhanced)
+    return generate_report(prediction)
+```
 
-## Learn More
+## 📬 Let's Connect
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/soumyajit-jalua-09a98a270/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-%23181717?style=for-the-badge&logo=github)](https://github.com/soumyajitjalua1)
+[![Email](https://img.shields.io/badge/Email-Contact-%23D14836?style=for-the-badge&logo=gmail)](mailto:soumyaijitalua@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-%2300B0D8?style=for-the-badge&logo=react&logoColor=white)](https://your-portfolio-url.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- Horizontal alignment using shields.io parameters -->
